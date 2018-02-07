@@ -1,0 +1,64 @@
+#header { width: 100%; height: 200px;background-size:100% 800px;color: #000000;}
+@media (max-width:1000px){
+    #header { width: 100%;height: 300px;}
+    #header ul { padding-top:10px;}
+}
+#header div.top { padding-top:80px;}
+#header div.top img {}
+#header ul {float: right; height:50px;}
+#header ul li {cursor: pointer ;float: left; height: 50px; line-height:50px;font-size:14px; text-align: center;border-radius: 8px}
+#header ul li:hover { font-size:16px; background:rgba(0,0,0,0.2)}
+#header ul a { color: #000;}
+#footer {width: 100%;height: 200px;background: #DDDDDD;box-sizing: content-box}
+@media (max-width:998px){
+    #footer { width: 100%;height: 300px;}
+}
+@media (max-width:768px){
+    #footer { width: 100%;height: 500px;}
+}
+#footer .left {padding-top: 40px;}
+#footer .left img {height: 120px;width: 120px;}
+#footer .mid {height: 100%;padding-top: 40px;}
+#footer .mid .content1 {color: #787878;line-height: 20px;}
+#footer .mid .content2 {color:#000000;padding-top: 25px;}
+#footer .right {height: 100%;padding-top: 40px;}
+#footer .right .title {font-weight: bold;font-size: 14px;text-align: right;}
+#footer .right .linebold {width: 100%;border-top: 5px solid #A0A0A0;}
+#footer .right .bignum { width: 100%;;text-align: right;height: 40px;font-size:30px;font-weight: bold;padding-top: 15px; text-align: right;;color: #000;box-sizing: content-box}
+#footer .right .linethin   {width: 100%;border-top:1px solid #A0A0A0;}
+#footer .right .net {text-align: right;}
+
+/*----------------------------------page5----------------------------------*/
+
+
+#photo { width: 100%; height: 2700px;}
+@media (max-width:998px){
+    #photo { width: 100%;height: 4200px;}
+}
+@media (max-width:768px){
+    #photo { width: 100%;height: 10000px;}
+}
+@media (max-width:608px){
+    #photo { width: 100%;height: 8200px;}
+}
+@media (max-width:538px){
+    #photo { width: 100%;height: 7200px;}
+}
+@media (max-width:450px){
+    #photo { width: 100%;height: 6300px;}
+}
+
+@media (max-width:380px){
+    #photo { width: 100%;height: 5400px;}
+}
+
+#photo img { width: 100%; height: 100%;}
+#photo div.txt {line-height: 120px; font-size: 20px; text-align: center;color:#000000; letter-spacing: 1em; background: url("../img/62ue.png");}
+#photo ul.pics { margin-top:20px;}
+#photo ul.pics li { margin-top: 20px;}
+#photo ul.pics li img { width: 100%;}
+#photo div.ctrltxt { text-align: center; height: 100px; width: 100%; line-height:100px; font-size: 16px; color: #3B718D;;}
+
+
+
+

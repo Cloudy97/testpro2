@@ -1,0 +1,40 @@
+#header { width: 100%; height: 200px;background-size:100% 800px;color: #000000;}
+#header div.top { padding-top:80px;}
+#header div.top img { margin-left:20px;}
+#header ul { width: 880px; float: right; padding-left:64px; height:50px;}
+#header ul li {cursor: pointer ;width: 175px; float: left; height: 50px; line-height:50px;font-size:14px; text-align: center;border-radius: 8px}
+#header ul li:hover { font-size:16px; background:rgba(0,0,0,0.2)}
+#header ul a { color: #000;}
+#footer {width: 100%;height: 200px;background: #DDDDDD;}
+#footer .left {float: left;width:15%;padding-top: 40px;}
+#footer .left img {height: 120px;width: 120px;}
+#footer .mid {width:60%;height: 100%;padding-top: 40px;float: left;}
+#footer .mid .content1 {color: #787878;line-height: 20px;}
+#footer .mid .content2 {color:#000000;padding-top: 25px;}
+#footer .right {width: 25%;height: 100%;float: left;padding-top: 40px;}
+#footer .right .title {font-weight: bold;font-size: 14px;text-align: right;}
+#footer .right .linebold {width: 100%;border-top: 5px solid #A0A0A0}
+#footer .right .bignum {text-align: right;height: 40px;font-size:30px;font-weight: bold;padding-top: 15px;padding-left: 30px;color: #000;}
+#footer .right .linethin   {width: 100%;border-top:1px solid #A0A0A0}
+#footer .right .net {text-align: right;}
+
+/*----------------------------------page4------------------------------------------*/
+#content { width: 100%; height: 1000px; }
+#content .news { width: 100%; height: 600px; margin-top:30px; display: flex;}
+#content .news .left { width: 19%; height: 100%;}
+#content .news .left ul { width: 100%; height: 100%;}
+#content .news .left ul li { height: 60px; width: 100%; font-size:16px; font-weight:300; line-height:4m0px;}
+#content .news .line { height: 100%; width: 0; border-left:2px ridge #B4B4B4;}
+#content .right { width: 80%; height: 100%; padding-left: 3%;;}
+#content .right ul.content li.news { width: 100%; height: 105px;  margin-top:10px;}
+#content .right ul.content li.news img { width: 145px; height: 105px;}
+#content .right ul.content li.news img.leftarea { float: left;}
+#content .right ul.content li.news span.classify {color:#C99F63; font-size:12px;}
+#content .right ul.content li.news span.title {font-size:16px;}
+#content .right ul.content li.news div.date { font-size:12px;}
+#content .right ul.content li.news .txt { padding-left:10px;}
+
+
+
+
+

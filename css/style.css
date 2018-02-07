@@ -1,0 +1,66 @@
+#header { width: 100%;height: 800px;background-size:100% 800px; color: #ffffff; position: relative;}
+#header div.top { padding-top:80px;}
+#header div.top img { margin-left:20px;}
+#header ul { width: 880px; float: right; padding-left:64px; height:50px;}
+#header ul li {cursor: pointer ;width: 175px; float: left; height: 50px; line-height:50px;font-size:14px; text-align: center;border-radius: 8px}
+#header ul li:hover { font-size:16px; background:rgba(0,0,0,0.2)}
+#header ul a { color: #FFFFff;}
+#header .posc { position: absolute;z-index: -10}
+
+
+
+#footer {width: 100%;height: 200px;background: #DDDDDD;}
+#footer .left {float: left;width:15%;padding-top: 40px;}
+#footer .left img {height: 120px;width: 120px;}
+#footer .mid {width:60%;height: 100%;padding-top: 40px;float: left;}
+#footer .mid .content1 {color: #787878;line-height: 20px;}
+#footer .mid .content2 {color:#000000;padding-top: 25px;}
+#footer .right {width: 25%;height: 100%;float: left;padding-top: 40px;}
+#footer .right .title {font-weight: bold;font-size: 14px;text-align: right;}
+#footer .right .linebold {width: 100%;border-top: 5px solid #A0A0A0}
+#footer .right .bignum {text-align: right;height: 40px;font-size:30px;font-weight: bold;padding-top: 15px;padding-left: 30px;color: #000;}
+#footer .right .linethin   {width: 100%;border-top:1px solid #A0A0A0}
+#footer .right .net {text-align: right;}
+
+
+
+/*--------------------------------------index-------------------------------------*/
+
+
+
+#mid { width: 100%; height: 470px; margin-top:100px;}
+#mid div.left { width: 50%; float: left;}
+#mid div.left img { width: 490px; height: 359px;}
+#mid div.right{ width: 50%; float: right;}
+#mid div.right .content{ width: 70%; float: left;}
+#mid div.right .content h2.title { font-size: 30px;color:#000066; font-weight:400;;line-height: 80px; height: 80px;letter-spacing:30px; text-align: center;}
+#mid div.right .content div.txt { font-size:14px; line-height:32px;color: #5A5A5A; font-weight:100;}
+#mid div.right .pic { width: 30%; float: right;}
+
+#menupic { width: 100%; height:800px;}
+#menupic img.main { width: 100%; height: 600px;}
+#menupic div.content { font-size: 16px;color:#000;}
+#menupic div.txt1 { position: absolute; left:420px; top:135px;}
+#menupic div.txt2 { position: absolute; left:1020px; top:135px;}
+#menupic div.txt3 { position: absolute; left:115px; top:440px;}
+#menupic div.txt4 { position: absolute; left:725px; top:440px;}
+
+#linepic {height:200px; width:100%;}
+#linepic div.line {border-top:1px #EAEBEF solid; width: 100%; height: 0px;}
+#linepic img.flower { position: absolute; left: 519.5px; top: -80.5px;}
+
+#bottomcontent { width: 100%; height: 600px;}
+#bottomcontent div.left { width: 45%; height: 600px;float: left;}
+#bottomcontent div.left img { width: 490px; height: 359px;margin-top:100px;}
+#bottomcontent div.right{ width: 55%;height: 600px; float: right;}
+#bottomcontent div.right div.title{ width: 100%; height: 90px; background: url(../img/1EFE3A78-B5D2-45D7-981F-AA66BFE3A7DC.png);}
+#bottomcontent div.right div.title h2 { float: left; line-height:90px;color:#000; padding-left:30px; font-weight:100; font-size:30px;}
+#bottomcontent div.right div.intro { float: right; line-height:90px;color:#000066; padding-right:30px;}
+#bottomcontent div.right ul.content li.news { width: 100%; height: 105px;  margin-top:10px;}
+#bottomcontent div.right ul.content li.news img { width: 145px; height: 105px;}
+#bottomcontent div.right ul.content li.news img.leftarea { float: left;}
+#bottomcontent div.right ul.content li.news span.classify {color:#C99F63; font-size:12px;}
+#bottomcontent div.right ul.content li.news span.title { font-weight:bold; font-size:18px;}
+#bottomcontent div.right ul.content li.news div.date { font-size:12px;}
+
+
